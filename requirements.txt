@@ -1,1 +1,4 @@
-note all library you use from python in here
+# Python Dependencies for Volcano Sentiment Analysis Indonesia (2021-2025)
+yt-dlp>=2024.0.0
+pandas>=2.0.0
+emoji>=2.0.0
