@@ -1,0 +1,32 @@
+{
+  "label2id": {
+    "O": 0,
+    "B-VOL": 1,
+    "I-VOL": 2,
+    "B-LOC": 3,
+    "I-LOC": 4,
+    "B-HAZ": 5,
+    "I-HAZ": 6,
+    "B-TIME": 7,
+    "I-TIME": 8,
+    "B-GOV": 9,
+    "I-GOV": 10,
+    "B-SOC": 11,
+    "I-SOC": 12
+  },
+  "id2label": {
+    "0": "O",
+    "1": "B-VOL",
+    "2": "I-VOL",
+    "3": "B-LOC",
+    "4": "I-LOC",
+    "5": "B-HAZ",
+    "6": "I-HAZ",
+    "7": "B-TIME",
+    "8": "I-TIME",
+    "9": "B-GOV",
+    "10": "I-GOV",
+    "11": "B-SOC",
+    "12": "I-SOC"
+  }
+}
