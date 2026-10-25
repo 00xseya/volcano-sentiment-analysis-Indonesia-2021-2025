@@ -1,0 +1,19 @@
+# Distribusi keseluruhan
+label_name,count,percentage
+negatif,7059,10.89
+netral,37567,57.94
+positif,20210,31.17
+
+# Distribusi per tahun
+video_year,negatif,netral,positif
+2021,874,4535,3859
+2022,727,6945,2626
+2023,3035,10464,7068
+2024,1488,9131,4133
+2025,935,6492,2524
+
+# Metode
+method,negatif,netral,positif
+neutral-default,0,34092,0
+rule,2342,1313,4775
+rule-override,4717,2162,15435

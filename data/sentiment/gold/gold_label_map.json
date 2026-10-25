@@ -1,0 +1,19 @@
+{
+  "0": {
+    "name": "negatif",
+    "description": "Kritik, keluhan, kemarahan, kekecewaan, ketakutan, kekhawatiran, kesedihan, duka, hinaan, atau penilaian buruk."
+  },
+  "1": {
+    "name": "netral",
+    "description": "Fakta, pertanyaan, sapaan, permintaan, spam/off-topic, atau kalimat tanpa polaritas jelas."
+  },
+  "2": {
+    "name": "positif",
+    "description": "Pujian, terima kasih, dukungan, harapan/doa baik, rasa syukur, kekaguman, humor ringan, atau penilaian baik."
+  },
+  "files": {
+    "gold_sample.csv": "Sampel tuning 120 baris.",
+    "gold_sample_holdout.csv": "Sampel holdout 120 baris (tidak sepenuhnya bersih setelah iterasi aturan)."
+  },
+  "note": "Label dibuat dengan bantuan AI dan review manual terbatas. Gunakan sampel baru untuk evaluasi final yang benar-benar independen."
+}

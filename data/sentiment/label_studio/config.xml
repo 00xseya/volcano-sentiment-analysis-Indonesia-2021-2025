@@ -1,0 +1,12 @@
+<View>
+  <Header value="Label sentimen kalimat (0=Negatif, 1=Netral, 2=Positif)"/>
+  <Text name="text" value="$text" granularity="word"/>
+  <Choices name="sentiment" toName="text" choice="single" showInline="true">
+    <Choice value="0 - Negatif" hotkey="1"/>
+    <Choice value="1 - Netral" hotkey="2"/>
+    <Choice value="2 - Positif" hotkey="3"/>
+  </Choices>
+  <View style="margin-top: 8px; color: #666; font-size: 12px;">
+    <Text name="meta" value="$meta_text"/>
+  </View>
+</View>

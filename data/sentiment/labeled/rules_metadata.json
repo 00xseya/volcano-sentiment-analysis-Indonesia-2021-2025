@@ -1,0 +1,12 @@
+{
+  "pipeline": "rules_v1",
+  "input": "data/cleansing/youtube_comments_cleansed.csv",
+  "rows": 64836,
+  "review_rows": 34800,
+  "label_counts": {
+    "negatif": 7059,
+    "netral": 37567,
+    "positif": 20210
+  },
+  "created_at": "2026-10-25T13:45:23.045196+00:00"
+}
