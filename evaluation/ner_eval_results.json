@@ -1,0 +1,50 @@
+{
+  "model": "indobert-volcano-ner",
+  "test_file": "data/ner_distribution/data_distribution/test.jsonl",
+  "test_rows": 6681,
+  "inference_seconds": 92.2,
+  "micro_avg": {
+    "precision": 0.9747,
+    "recall": 0.9818,
+    "f1": 0.9783
+  },
+  "per_entity": {
+    "GOV": {
+      "precision": 0.9648,
+      "recall": 0.9384,
+      "f1-score": 0.9514,
+      "support": 146
+    },
+    "HAZ": {
+      "precision": 0.8873,
+      "recall": 0.9844,
+      "f1-score": 0.9333,
+      "support": 64
+    },
+    "LOC": {
+      "precision": 0.9600,
+      "recall": 0.9746,
+      "f1-score": 0.9673,
+      "support": 394
+    },
+    "SOC": {
+      "precision": 0.9966,
+      "recall": 0.9916,
+      "f1-score": 0.9941,
+      "support": 594
+    },
+    "TIME": {
+      "precision": 0.9421,
+      "recall": 0.9580,
+      "f1-score": 0.9500,
+      "support": 119
+    },
+    "VOL": {
+      "precision": 0.9798,
+      "recall": 0.9887,
+      "f1-score": 0.9842,
+      "support": 884
+    }
+  },
+  "classification_report_text": "              precision    recall  f1-score   support\n\n         GOV     0.9648    0.9384    0.9514       146\n         HAZ     0.8873    0.9844    0.9333        64\n         LOC     0.9600    0.9746    0.9673       394\n         SOC     0.9966    0.9916    0.9941       594\n        TIME     0.9421    0.9580    0.9500       119\n         VOL     0.9798    0.9887    0.9842       884\n\n   micro avg     0.9747    0.9818    0.9783      2201\n   macro avg     0.9551    0.9726    0.9634      2201\nweighted avg     0.9751    0.9818    0.9783      2201\n"
+}

@@ -1,0 +1,34 @@
+EVALUATION LOG (ev-azhar)
+==========================
+Tanggal: 2026-11-05
+Penanggung Jawab: Azhar (Evaluation)
+
+1. Ruang Lingkup Pekerjaan:
+   - Evaluasi inferensi model NER IndoBERT (indobert-volcano-ner) pada held-out test split (data/ner_distribution/data_distribution/test.jsonl).
+   - Verifikasi & integrasi evaluasi analisis sentimen (rules_v1 vs gold sample).
+   - Pembuatan skrip evaluasi otomatis: evaluation/run_ner_eval.py.
+   - Pembuatan unified presentation notebook: notebook/final_analysis.ipynb.
+
+2. Hasil Evaluasi NER (Test Set - 6,681 records):
+   - Waktu inferensi: 92.2 detik (Apple Silicon MPS)
+   - Micro Average:
+     * Precision: 0.9747
+     * Recall: 0.9818
+     * F1-score: 0.9783
+   - Per-Entity Metrics:
+     * GOV  : P=0.9648 | R=0.9384 | F1=0.9514 (Support: 146)
+     * HAZ  : P=0.8873 | R=0.9844 | F1=0.9333 (Support: 64)
+     * LOC  : P=0.9600 | R=0.9746 | F1=0.9673 (Support: 394)
+     * SOC  : P=0.9966 | R=0.9916 | F1=0.9941 (Support: 594)
+     * TIME : P=0.9421 | R=0.9580 | F1=0.9500 (Support: 119)
+     * VOL  : P=0.9798 | R=0.9887 | F1=0.9842 (Support: 884)
+   - File output tersimpan di: evaluation/ner_eval_results.json
+
+3. Hasil Evaluasi Sentimen (rules_v1):
+   - Dev Set (gold_sample.csv, n=120):
+     * Accuracy: 84.17% | Macro F1: 0.8425
+   - Holdout Set (gold_sample_holdout.csv, n=120):
+     * Accuracy: 85.00% | Macro F1: 0.8369
+
+4. Deliverable Presentasi:
+   - notebook/final_analysis.ipynb (8 section terpadu dari pipeline hingga kesimpulan visual).
