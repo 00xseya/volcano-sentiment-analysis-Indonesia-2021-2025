@@ -13,6 +13,19 @@
 
 ---
 
+## Tautan Pengumpulan & Berkas Penting
+
+| Komponen | Tautan / Berkas |
+|---|---|
+| **Repositori GitHub** | [github.com/00xseya/volcano-sentiment-analysis-Indonesia-2021-2025](https://github.com/00xseya/volcano-sentiment-analysis-Indonesia-2021-2025) |
+| **Video Presentasi (YouTube Unlisted)** | *[Tempel link YouTube Unlisted di sini]* |
+| **Slide Presentasi (PPTX)** | [Presentasi-Volcano-Sentiment-Analysis-Final.pptx](./Presentasi-Volcano-Sentiment-Analysis-Final.pptx) |
+| **Notebook Demo & Analisis** | [notebook/final_analysis.ipynb](./notebook/final_analysis.ipynb) |
+| **Dataset Berlabel (64.836 baris)** | [data/sentiment/labeled/sentiment_labels_rules.csv](./data/sentiment/labeled/sentiment_labels_rules.csv) |
+| **Model Weights & Backup Data** | [Google Drive Folder](https://drive.google.com/drive/folders/1rPPRFv0xOuI1d_6hZtACc1iHRCy-wSp2?usp=drive_link) |
+
+---
+
 ## Deskripsi Proyek
 
 Penelitian NLP untuk menganalisis sentimen publik Indonesia terhadap erupsi gunung api (2021–2025) dari komentar YouTube. Pendekatan dua tahap:
@@ -27,10 +40,9 @@ Penelitian NLP untuk menganalisis sentimen publik Indonesia terhadap erupsi gunu
 ## Panduan Membaca Proyek (untuk Dosen)
 
 ### 1. Mulai dari Presentasi
-Buka file presentasi untuk gambaran lengkap:
-```
-Presentasi-Volcano-Sentiment-Analysis-Final.pptx
-```
+Buka file presentasi untuk gambaran lengkap:  
+👉 **[Presentasi-Volcano-Sentiment-Analysis-Final.pptx](./Presentasi-Volcano-Sentiment-Analysis-Final.pptx)**
+
 
 ### 2. Lihat Notebook Utama
 Notebook `notebook/final_analysis.ipynb` berisi seluruh analisis yang sudah dijalankan — semua cell sudah ter-execute dengan output lengkap:
