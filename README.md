@@ -1,15 +1,16 @@
 # Analisis Sentimen Publik terhadap Erupsi Gunung Api di Indonesia (2021–2025)
 
 **Mata Kuliah:** Pengolahan Bahasa Alami (A)  
-**Dosen Pengampu:** Assoc. Prof. Dr. Ir. Aris Tjahyanto, M.Kom  
 **Tanggal Pengumpulan:** 5 November 2026
 
-| Nama | NRP | Peran |
-|------|-----|-------|
-| Aldani | — | Data Preparation (scraping, cleaning, cleansing) |
-| Muhammad Sahril | — | First Analysis — anotasi NER, fine-tuning IndoBERT |
-| Pankop / Naufal | — | Second Analysis — rule-based sentiment labeling |
-| Azhar Aditya Pratama | 5026231084 | Evaluation — NER test eval, notebook presentasi |
+### Anggota Kelompok dan Pembagian Tugas
+
+| Nama | NRP | Pembagian Tugas / Kontribusi |
+|------|-----|------------------------------|
+| **Aldani Prasetyo** | 5026231035 | Data Preparation (Scraping komentar YouTube, cleaning emoji/duplikasi, cleansing teks & filter spam judol) |
+| **Muhammad Sahril** | 5026231049 | First Analysis (Anotasi dataset NER di Label Studio, fine-tuning model IndoBERT token classification) |
+| **Naufal Zaky Nugraha** | 5026231082 | Second Analysis (Rule-based sentiment pipeline, pengembangan leksikon sentimen, evaluasi dev & holdout) |
+| **Azhar Aditya Pratama** | 5026231084 | Evaluation & Synthesis (Evaluasi held-out test set NER, penyusunan notebook presentasi terpadu & knowledge graph) |
 
 ---
 
