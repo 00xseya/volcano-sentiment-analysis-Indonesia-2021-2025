@@ -19,7 +19,7 @@
 | Komponen | Tautan / Berkas |
 |---|---|
 | **Repositori GitHub** | [github.com/00xseya/volcano-sentiment-analysis-Indonesia-2021-2025](https://github.com/00xseya/volcano-sentiment-analysis-Indonesia-2021-2025) |
-| **Video Presentasi (YouTube Unlisted)** | *[Tempel link YouTube Unlisted di sini]* |
+| **Video Presentasi (YouTube Unlisted)** | [youtu.be/bZw2SS42FIg](https://youtu.be/bZw2SS42FIg) |
 | **Slide Presentasi (PPTX)** | [Presentasi-Volcano-Sentiment-Analysis-Final.pptx](./Presentasi-Volcano-Sentiment-Analysis-Final.pptx) |
 | **Notebook Demo & Analisis** | [notebook/final_analysis.ipynb](./notebook/final_analysis.ipynb) |
 | **Dataset Berlabel (64.836 baris)** | [data/sentiment/labeled/sentiment_labels_rules.csv](./data/sentiment/labeled/sentiment_labels_rules.csv) |
