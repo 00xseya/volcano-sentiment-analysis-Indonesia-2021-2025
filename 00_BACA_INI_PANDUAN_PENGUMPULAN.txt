@@ -1,0 +1,47 @@
+================================================================================
+PENGUMPULAN TUGAS AKHIR PENGOLAHAN BAHASA ALAMI (KELAS A)
+Analisis Sentimen Publik terhadap Erupsi Gunung Api di Indonesia (2021–2025)
+Tanggal Pengumpulan: 5 November 2026
+================================================================================
+
+ANGGOTA KELOMPOK DAN PEMBAGIAN TUGAS:
+1. Aldani Prasetyo       (5026231035) - Data Preparation (Scraping, Cleaning, Cleansing)
+2. Muhammad Sahril      (5026231049) - First Analysis (IndoBERT NER Fine-Tuning)
+3. Naufal Zaky Nugraha   (5026231082) - Second Analysis (Sentiment Rules Pipeline)
+4. Azhar Aditya Pratama  (5026231084) - Evaluation & Synthesis (Test Eval, Notebook, Integrasi)
+
+================================================================================
+4 SYARAT PENGUMPULAN & LOKASI BERKAS:
+================================================================================
+
+1. VIDEO PRESENTASI & DEMO (10-15 MENIT):
+   Link YouTube (Unlisted): https://youtu.be/bZw2SS42FIg
+
+2. REPOSITORI KODE & PROYEK:
+   Link GitHub: https://github.com/00xseya/volcano-sentiment-analysis-Indonesia-2021-2025
+
+3. FILE PRESENTASI:
+   Nama Berkas : Presentasi-Volcano-Sentiment-Analysis-Final.pptx
+   Lokasi      : Berada di root folder ini
+   Catatan     : Slide 1 memuat tabel identitas dan pembagian kontribusi anggota.
+
+4. RUNNING CODE & DEMO HASIL:
+   Nama Berkas : notebook/final_analysis.ipynb
+   Catatan     : Seluruh 33 cell telah dieksekusi lengkap dengan output visualisasi,
+                 grafik distribusi, metrik evaluasi, dan Knowledge Graph.
+
+5. DATASET BERLABEL SENTIMEN (64.836 BARIS):
+   Nama Berkas : data/sentiment/labeled/sentiment_labels_rules.csv
+   Format      : CSV (label 0 = negatif, 1 = netral, 2 = positif)
+
+6. MODEL WEIGHTS INDOBERT & FULL ANNOTATED DATA (GOOGLE DRIVE):
+   Tautan Drive: https://drive.google.com/drive/folders/1rPPRFv0xOuI1d_6hZtACc1iHRCy-wSp2?usp=drive_link
+
+================================================================================
+PANDUAN SINGKAT MENINJAU BERKAS:
+================================================================================
+- Untuk presentasi & narasi: Buka "Presentasi-Volcano-Sentiment-Analysis-Final.pptx" 
+  atau tonton video YouTube di https://youtu.be/bZw2SS42FIg.
+- Untuk eksekusi kode & detail teknis: Buka "notebook/final_analysis.ipynb".
+- Dokumentasi lengkap tersedia pada berkas "README.md".
+================================================================================
